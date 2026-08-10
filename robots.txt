@@ -1,0 +1,11 @@
+# 검색 로봇에게 주는 안내문입니다.
+# 이 파일은 주소 맨 앞(han7750.github.io/robots.txt)에 있어야만 읽힙니다.
+# 그래서 /gil/ 안에 두면 아무 효과가 없고, 이 루트 저장소에 있어야 합니다.
+
+# 모든 검색 로봇 허용 (Yeti = 네이버 로봇, Googlebot = 구글 로봇)
+User-agent: *
+Allow: /
+
+# 주소 목록표가 어디 있는지 알려줍니다
+Sitemap: https://han7750.github.io/sitemap.xml
+Sitemap: https://han7750.github.io/gil/sitemap.xml
